@@ -1,0 +1,59 @@
+.main-cocktails {
+  background-color: #fff;
+  margin-bottom: 32px;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.drink-image {
+  height: 20rem;
+  width: 100%;
+}
+
+.drink-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.drink-info h3,
+h4,
+p {
+  margin: 2px;
+}
+
+.drink-info h3 {
+  font-size: 2rem;
+}
+
+.drink-info h4 {
+  letter-spacing: 0.3rem;
+}
+
+.drink-info p {
+  color: #afafaf;
+  margin-bottom: 8px;
+}
+
+.details-btn {
+  background: #476a2e;
+  color: #fff;
+  border-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: 0.25rem;
+  width: 40%;
+}
+
+.details-btn {
+  background: #476a2e;
+  color: #fff;
+  border-color: transparent;
+}
+.details-btn:hover {
+  background: #d4e6a5;
+  color: #476a2e;
+}

@@ -1,0 +1,34 @@
+.error-container {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.error-container h2 {
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0.3rem;
+}
+
+.error-btn {
+  background: #476a2e;
+  color: #fff;
+  border-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: 0.25rem;
+}
+
+.error-btn {
+  background: #476a2e;
+  color: #fff;
+  border-color: transparent;
+}
+.error-btn:hover {
+  background: #d4e6a5;
+  color: #476a2e;
+}

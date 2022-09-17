@@ -1,0 +1,32 @@
+.no-match-text {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.cocktails-container {
+  display: grid;
+  grid-row-gap: 2rem;
+  column-gap: 2rem;
+  margin: 0 auto;
+  width: 85vw;
+}
+
+@media screen and (min-width: 992px) {
+  .cocktails-container {
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    /* grid-template-columns: repeat(autofill, 300px); */
+  }
+}
