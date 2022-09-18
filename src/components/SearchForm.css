@@ -1,0 +1,31 @@
+.searchform-container {
+  padding-top: 80px;
+  margin: 16px 30px;
+}
+
+.search {
+  padding: 32px 40px;
+  width: 85vw;
+  background-color: #fff;
+  box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+  max-width: 40rem;
+}
+
+.form-details label {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: #476a2e;
+  text-transform: capitalize;
+}
+
+.form-details input {
+  width: 100%;
+  border: transparent;
+  background: #f1f5f8;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+}

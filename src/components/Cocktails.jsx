@@ -12,7 +12,7 @@ function Cocktails({ id, name, info, image, glass }) {
         <h3>{name}</h3>
         <h4>{glass}</h4>
         <p>{info}</p>
-        <Link to={`/cocktail/:${id}`}>
+        <Link to={`/cocktail/${id}`}>
           <button className="details-btn">details</button>
         </Link>
       </div>

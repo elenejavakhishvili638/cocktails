@@ -4,7 +4,7 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const [searchValue, setValue] = useState("a");
+  const [searchValue, setValue] = useState("");
   const [cocktail, setCocktail] = useState([]);
 
   useEffect(() => {
