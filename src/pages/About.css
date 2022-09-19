@@ -20,8 +20,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .about-container h1,
-  p {
+  .about-p {
     width: 640px;
     margin: 0 auto;
   }

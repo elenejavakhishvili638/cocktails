@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about-container">
       <h1>About us</h1>
-      <p>
+      <p className="about-p">
         {" "}
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
         repudiandae architecto qui adipisci in officiis, aperiam sequi atque
